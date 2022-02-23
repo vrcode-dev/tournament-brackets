@@ -1,0 +1,29 @@
+html,
+ul {
+  box-sizing: content-box;
+  padding: 0;
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin-block-start: 12px;
+  margin-block-end: 12px;
+}
+
+body {
+  font-family: "Helvetica Neua", sans-serif;
+  margin: 20px;
+}
+.form-group {
+  display: flex;
+  justify-content: center;
+}
+textarea {
+  padding: 8px;
+  width: 100%;
+  height: 200px;
+  font-size: 15px;
+  margin-bottom: 16px;
+}

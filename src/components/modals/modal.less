@@ -1,0 +1,43 @@
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #00000080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  top: 0;
+  width: 80%;
+  background: white;
+  opacity: 1;
+
+  h2 {
+    border-bottom: 1px solid #ccc;
+    padding: 1rem;
+    margin: 0;
+  }
+  &__content {
+    padding: 1rem;
+  }
+  &__actions {
+    border-top: 1px solid #ccc;
+    background: #eee;
+    padding: 0.5rem 1rem;
+    button {
+      border: 0;
+      // background: #78f89f;
+      border-radius: 5px;
+      padding: 0.5rem 1rem;
+      font-size: 0.8rem;
+      line-height: 1;
+    }
+  }
+}
+
+#centered-toggle-button {
+  position: absolute;
+}
